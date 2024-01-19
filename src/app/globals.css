@@ -1,0 +1,68 @@
+:root{
+    --bg: #fff;
+    --textColor: #111;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    overflow-x: hidden;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--textColor);
+}
+
+.wrapper{
+    max-width: 1536px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0  80px;
+    background: blueviolet;
+}
+
+@media screen and (max-width: 1536px) {
+    .wrapper{
+        max-width: 1336px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .wrapper{
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wrapper{
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper{
+        max-width: 475px;
+        width: 100%;
+    }
+}
