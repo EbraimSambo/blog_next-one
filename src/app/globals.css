@@ -33,7 +33,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     padding: 0  80px;
-    background: blueviolet;
+    /* background: blueviolet; */
 }
 
 @media screen and (max-width: 1536px) {
